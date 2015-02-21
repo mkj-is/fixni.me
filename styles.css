@@ -1,6 +1,6 @@
 
 body {
-  font-family: sans-serif;
+  font-family: "Helvetica Neue", Arial, sans-serif;
   font-size: 1.2em;
   text-align: center;
   color: black;
@@ -8,6 +8,10 @@ body {
   background-position: top left, top left;
   background-repeat: no-repeat, repeat-y;
   background-size: 100%;
+}
+
+a {
+  color: white;
 }
 
 input {
@@ -52,9 +56,9 @@ input[type=email] {
   color: black;
 }
 
-/* mailchimp form */
-#mc_embed_signup {
+.bottom {
   position: absolute;
-  width: 100%;
-  top: 60%;
+  width: 80%;
+  left: 10%;
+  bottom: 10%;
 }
