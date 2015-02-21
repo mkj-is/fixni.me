@@ -1,6 +1,7 @@
 
 body {
   font-family: "Helvetica Neue", Arial, sans-serif;
+  font-weight: bold;
   font-size: 1.2em;
   text-align: center;
   color: black;
@@ -15,7 +16,8 @@ a {
 }
 
 input {
-  margin-top: 0.5em;
+  -webkit-appearance: none;
+  margin-bottom: 0.5em;
   width: 300px;
   padding:10px 15px;
   background: rgba(255, 255, 255, 0.5);
@@ -23,6 +25,8 @@ input {
   -webkit-border-radius: 5px;
   border-radius: 5px;
   font-size: 1em;
+  font-weight: inherit;
+  font-family: inherit;
 }
 
 input:focus, button:focus {
@@ -61,4 +65,13 @@ input[type=email] {
   width: 80%;
   left: 10%;
   bottom: 10%;
+}
+
+@media(max-width: 400px) {
+  .bottom {
+    top: 100px;
+  }
+  input {
+    width: 80% !important;
+  }
 }
