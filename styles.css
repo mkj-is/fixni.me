@@ -75,3 +75,9 @@ input[type=email] {
     width: 80% !important;
   }
 }
+
+@media screen and (min-aspect-ratio: 16/9) {
+  .bottom {
+    bottom: 1em;
+  }
+}
