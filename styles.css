@@ -1,16 +1,7 @@
 
 body {
-  background-color: #CC3910;
-}
-
-polygon, path {
-  fill: #f2f2f2;
-}
-
-svg {
-  height: 300px;
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 10%;
+  background-image: url(images/fixni_me.jpg), url(images/texture.jpg);
+  background-position: top left, top left;
+  background-repeat: no-repeat, repeat-y;
+  background-size: 100%;
 }
