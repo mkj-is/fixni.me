@@ -1,7 +1,60 @@
 
 body {
+  font-family: sans-serif;
+  font-size: 1.2em;
+  text-align: center;
+  color: black;
   background-image: url(images/fixni_me.jpg), url(images/texture.jpg);
   background-position: top left, top left;
   background-repeat: no-repeat, repeat-y;
   background-size: 100%;
+}
+
+input {
+  margin-top: 0.5em;
+  width: 300px;
+  padding:10px 15px;
+  background: rgba(255, 255, 255, 0.5);
+  border:0 none;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+input:focus, button:focus {
+  outline: none;
+}
+
+input[type=submit] {
+  cursor:pointer;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+input[type=email] {
+  text-align: center;
+  width: 270px;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+::-webkit-input-placeholder {
+  color: black;
+}
+
+:-moz-placeholder {
+  color: black;
+}
+
+::-moz-placeholder {
+  color: black;
+}
+
+:-ms-input-placeholder {
+  color: black;
+}
+
+/* mailchimp form */
+#mc_embed_signup {
+  position: absolute;
+  width: 100%;
+  top: 60%;
 }
